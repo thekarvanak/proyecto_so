@@ -1,5 +1,3 @@
-"""Comunicación productor-consumidor mediante queue.Queue."""
-
 from queue import Queue
 from threading import Thread
 

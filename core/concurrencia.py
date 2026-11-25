@@ -1,5 +1,3 @@
-"""Demostraciones prácticas de condición de carrera y sincronización."""
-
 from threading import Barrier, Lock, Semaphore, Thread
 from time import sleep
 

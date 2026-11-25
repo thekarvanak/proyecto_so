@@ -1,5 +1,3 @@
-"""Operaciones de creación, consulta y ciclo de vida de procesos."""
-
 from core.proceso import EstadoProceso, Proceso
 from utils.visualizacion import mostrar_tabla
 

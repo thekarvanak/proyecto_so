@@ -1,5 +1,3 @@
-"""Administrador de archivos confinado a una carpeta de pruebas."""
-
 from pathlib import Path
 
 

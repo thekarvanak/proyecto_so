@@ -1,5 +1,3 @@
-"""Administrador de memoria RAM con operaciones atómicas bajo Lock."""
-
 from threading import Lock
 
 

@@ -1,8 +1,4 @@
-"""Presentación en consola sin dependencias externas."""
-
-
 def mostrar_tabla(encabezados: list[str], filas: list[list[object]]) -> None:
-    """Imprime filas tabulares adaptando anchos al contenido."""
     if not encabezados:
         print("(sin columnas)")
         return
@@ -24,7 +20,6 @@ def mostrar_tabla(encabezados: list[str], filas: list[list[object]]) -> None:
 
 
 def mostrar_diagrama_gantt(segmentos: list[tuple[str, int, int]]) -> None:
-    """Muestra segmentos en orden cronológico e indica los intervalos ociosos."""
     if not segmentos:
         print("(sin ejecuciones)")
         return
@@ -41,7 +36,6 @@ def mostrar_diagrama_gantt(segmentos: list[tuple[str, int, int]]) -> None:
 
 
 def mostrar_barra(valor: int, total: int, ancho: int = 30) -> str:
-    """Devuelve una barra textual de utilización para una cantidad y total."""
     if total <= 0 or valor < 0 or valor > total:
         raise ValueError("Se requiere 0 <= valor <= total y total positivo.")
     ocupado = round(ancho * valor / total)

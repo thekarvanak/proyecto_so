@@ -1,5 +1,3 @@
-"""Algoritmos FCFS, SJF no expulsivo y Round Robin."""
-
 from collections import deque
 from dataclasses import dataclass
 

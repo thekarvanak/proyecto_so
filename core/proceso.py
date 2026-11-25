@@ -1,5 +1,3 @@
-"""Representación de un proceso administrado por el simulador."""
-
 from dataclasses import dataclass
 from enum import Enum
 
